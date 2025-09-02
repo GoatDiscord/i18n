@@ -1,10 +1,12 @@
 
 {
+    "lANGUAGE": "The current language in the server is English 🇬🇧",
     "PERMISSION_DENIED": "You do not have permission to use this command.",
     "COMMAND_ERROR": "This command can only be used in a server.",
     "COMMAND_ERROR_TEXT_CHANNEL": "This command can only be used in a text channel.",
     "NO_REASON": "No reason provided.",
     "COMMAND_EXECUTION_ERROR": "There was an error while executing this command!",
+    "DASHBOARD": "Go to Dashboard",
 
     "BAN_SUCCESS": "{user} has been banned. Reason: {reason}",
     "BAN_FAIL": "There was an error trying to ban this member.",
