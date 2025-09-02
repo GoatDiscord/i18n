@@ -150,4 +150,33 @@
     "REPORT_MESSAGE_SELF": "You cannot report your own message.",
     "REPORT_MESSAGE_BOT": "You cannot report a bot's message.",
     "REPORT_MESSAGE_SUCCESS": "Your report for the message has been submitted to the moderators. Thank you."
+
+    "PURGE_NO_MESSAGES": "No messages found to delete that match the criteria.",
+    "PURGE_TOO_OLD": "No recent messages (less than 14 days old) were found to delete.",
+    "PURGE_SUCCESS": "Successfully deleted {count} message(s).",
+    "PURGE_FAIL": "There was an error trying to purge messages in this channel.",
+    "PURGE_LOG_TITLE": "Messages Purged",
+    "PURGE_REASON": "Purged {count} message(s) in #{channelName}.{userTag}",
+
+    "REACTION_ROLE_POST_NOT_FOUND": "Could not find a panel named \"{panelName}\".",
+    "REACTION_ROLE_POST_INVALID_CHANNEL": "The configured channel for this panel is invalid or could not be found.",
+    "REACTION_ROLE_POST_SUCCESS": "Reaction role panel \"{panelName}\" has been successfully posted in {channel}.",
+    "REACTION_ROLE_POST_FAIL": "Failed to post panel. Error: ```{error}```",
+
+    "SETUP_TICKETS_DISABLED": "The ticket system is disabled. Please enable it in the dashboard first.",
+    "SETUP_TICKETS_WRONG_CHANNEL": "This command can only be used in the configured ticket panel channel (<#{channelId}>).",
+    "SETUP_TICKETS_SUCCESS": "Ticket panel has been posted successfully.",
+    "SETUP_TICKETS_FAIL": "An error occurred: ```{error}```",
+
+    "SETUP_VERIFICATION_AUTO_START": "Starting automatic setup... Analyzing roles and channels.",
+    "SETUP_VERIFICATION_AUTO_ROLE_CREATED": "✅ Role `{roleName}` created.",
+    "SETUP_VERIFICATION_AUTO_CHANNEL_CREATED": "✅ Channel `#{channelName}` created.",
+    "SETUP_VERIFICATION_AUTO_CONFIGURING_PERMS": "Configuring channel permissions... This may take a moment.",
+    "SETUP_VERIFICATION_AUTO_PERMS_DONE": "✅ Channel permissions configured. The `Unverified` role can no longer see other channels.",
+    "SETUP_VERIFICATION_AUTO_COMPLETE": "🚀 **Automatic Setup Complete!**\n\nYou can now use `/setup-verification msg` to post the verification message.",
+    "SETUP_VERIFICATION_MSG_DISABLED": "The verification system is disabled. Please enable it in the dashboard or run `/setup-verification auto`.",
+    "SETUP_VERIFICATION_MSG_NO_CHANNEL": "No verification channel has been configured. Please set one in the dashboard or run `/setup-verification auto`.",
+    "SETUP_VERIFICATION_MSG_INVALID_CHANNEL": "The configured verification channel (ID: {channelId}) could not be found or is not a text channel.",
+    "SETUP_VERIFICATION_MSG_SUCCESS": "Verification message has been sent to <#{channelId}>.",
+    "SETUP_VERIFICATION_FAIL": "An error occurred: ```{error}```"
 }
