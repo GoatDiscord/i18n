@@ -180,5 +180,3 @@
     "SETUP_VERIFICATION_MSG_SUCCESS": "El mensaje de verificación ha sido enviado a <#{channelId}>.",
     "SETUP_VERIFICATION_FAIL": "Ocurrió un error: ```{error}```"
 }
-
-}
