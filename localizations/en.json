@@ -7,7 +7,6 @@
     "NO_REASON": "No reason provided.",
     "COMMAND_EXECUTION_ERROR": "There was an error while executing this command!",
     "DASHBOARD": "Go to Dashboard",
-
     "BAN_SUCCESS": "{user} has been banned. Reason: {reason}",
     "BAN_FAIL": "There was an error trying to ban this member.",
     "BAN_CANT_BAN": "I cannot ban this user. They may have a higher role than me or I lack permissions.",
@@ -16,31 +15,25 @@
     "BAN_DM_MODERATOR": "Moderator",
     "BAN_DM_APPEAL": "Appeal",
     "BAN_DM_APPEAL_LINK": "[Click here to appeal]({baseUrl}/appeals/{guildId})",
-
     "KICK_SUCCESS": "{user} has been kicked. Reason: {reason}",
     "KICK_FAIL": "There was an error trying to kick this member.",
     "KICK_NOT_IN_SERVER": "That user is not in this server.",
     "KICK_CANT_KICK": "I cannot kick this user. They may have a higher role than me or I lack permissions.",
     "KICK_DM_TITLE": "You have been kicked from {serverName}",
-
     "MUTE_SUCCESS": "{user} has been muted for: {duration}. Reason: {reason}",
     "MUTE_FAIL": "There was an error trying to mute this member.",
     "MUTE_CANT_MUTE_ADMIN": "You cannot mute an administrator.",
     "MUTE_INVALID_DURATION": "Invalid duration format. Use patterns like '10m', '1h', '7d'.",
-
     "UNMUTE_SUCCESS": "{user} has been unmuted.",
     "UNMUTE_FAIL": "There was an error trying to unmute this member.",
     "UNMUTE_NOT_MUTED": "This user is not currently muted.",
     "UNMUTE_DM_TITLE": "Your mute has been removed in {serverName}",
-
     "WARN_SUCCESS": "{user} has been warned. Reason: {reason}",
     "WARN_FAIL": "There was an error trying to issue this warning.",
     "WARN_CANT_WARN_BOT": "You cannot warn a bot.",
     "WARN_DM_TITLE": "You have been warned in {serverName}",
-
     "DELWARN_SUCCESS": "Successfully deleted warning `{warningId}` for {userTag}.",
     "DELWARN_FAIL": "There was an error trying to delete warning `{warningId}`. It might not exist.",
-    
     "HISTORY_TITLE": "Moderation History for {userTag}",
     "HISTORY_CLEAN": "This user has a clean record.",
     "HISTORY_COUNT": "This user has **{count}** log(s).",
@@ -48,23 +41,19 @@
     "HISTORY_FAIL": "There was an error trying to fetch the moderation history.",
     "HISTORY_MODERATOR_LABEL": "Moderator",
     "HISTORY_REASON_LABEL": "Reason",
-
     "WARNINGS_TITLE": "Warning History for {userTag}",
     "WARNINGS_CLEAN": "This user has no warnings.",
     "WARNINGS_COUNT": "This user has **{count}** warning(s).",
     "WARNINGS_FOOTER": "Showing the 10 most recent warnings out of {total}.",
     "WARNINGS_FAIL": "There was an error trying to fetch the warning history.",
-
     "LOCK_LOG_TITLE": "Channel Locked",
     "LOCK_REPLY_TITLE": "🔒 Channel Locked",
     "LOCK_REPLY_DESC": "This channel has been locked by a moderator.",
     "LOCK_FAIL": "There was an error trying to lock this channel. Please check my permissions.",
-
     "UNLOCK_LOG_TITLE": "Channel Unlocked",
     "UNLOCK_REPLY_TITLE": "🔓 Channel Unlocked",
     "UNLOCK_REPLY_DESC": "This channel has been unlocked.",
     "UNLOCK_FAIL": "There was an error trying to unlock this channel. Please check my permissions.",
-
     "EMBED_SEND_NOT_FOUND": "An embed with the name `{name}` could not be found.",
     "EMBED_SEND_SUCCESS": "Embed `{name}` has been sent to {channel}.",
     "EMBED_SEND_FAIL": "An error occurred while trying to send the embed.",
@@ -73,7 +62,6 @@
     "EMBED_POST_LIMIT_REACHED": "You have reached the maximum limit of {limit} saved embeds.",
     "EMBED_POST_SUCCESS": "Successfully imported and saved the embed as `{name}`. You can now send it using `/embed send`.",
     "EMBED_POST_FAIL": "An error occurred. Please make sure the message ID is correct and from this channel.",
-
     "GIVEAWAY_INVALID_DURATION": "Invalid duration format. Please use `s`, `m`, `h`, or `d`. Example: `10m` or `2d`.",
     "GIVEAWAY_TITLE": "Giveaway",
     "GIVEAWAY_DESCRIPTION": "Click the button to enter!",
@@ -98,24 +86,20 @@
     "GIVEAWAY_ENTRY_ERROR": "This giveaway seems to have ended or there was an error.",
     "GIVEAWAY_ENTRY_ALREADY_ENTERED": "You have already entered this giveaway.",
     "GIVEAWAY_ENTRY_SUCCESS": "You have successfully entered the giveaway!",
-
     "HELP_COMMAND_NOT_FOUND": "Command `/{commandName}` not found.",
     "HELP_OPTIONS_TITLE": "Options",
     "HELP_EMBED_TITLE": "Goat Bot Commands",
     "HELP_EMBED_DESCRIPTION": "Here is a list of all my commands. Use `/help <command>` for more details on a specific command.",
-
     "TESTWELCOME_DISABLED": "Welcome messages are currently disabled in the dashboard.",
     "TESTWELCOME_NO_CHANNEL": "No welcome channel has been configured. Please set one in the dashboard.",
     "TESTWELCOME_INVALID_CHANNEL": "The configured welcome channel (ID: {channelId}) could not be found or is not a text channel.",
     "TESTWELCOME_IMAGE_TITLE": "(Test Welcome Image)",
     "TESTWELCOME_SUCCESS": "Test welcome message sent to <#{channelId}>!",
     "TESTWELCOME_FAIL": "Failed to send test message: {error}",
-
     "LEADERBOARD_DISABLED": "The leveling system is currently disabled. Please enable it in the dashboard.",
     "LEADERBOARD_EMPTY": "No one is on the leaderboard yet. Start chatting!",
     "LEADERBOARD_FETCH_ERROR": "Could not fetch user data for the leaderboard.",
     "LEADERBOARD_GENERAL_ERROR": "There was an error trying to fetch the leaderboard.",
-
     "MODULES_TITLE": "Module Status for {serverName}",
     "MODULES_DESCRIPTION": "Here is an overview of the current module configuration for this server.",
     "MODULES_FOOTER": "Configure these modules in the web dashboard.",
@@ -130,18 +114,13 @@
     "MODULES_AUTOROLE": "Auto Roles",
     "MODULES_REPORT": "Report System",
     "MODULES_ANTIRAID": "Anti-Raid Protection",
-
     "POLL_ERROR": "There was an error trying to create the poll. Please check the inputs and try again.",
-
     "PROFILE_NOT_FOUND": "Could not find that member in the server.",
     "PROFILE_ERROR": "There was an error trying to generate the profile card: {error}",
-
     "RANK_DISABLED": "The leveling system is currently disabled. Please enable it in the dashboard.",
     "RANK_BOT": "Bots do not have levels.",
     "RANK_ERROR": "There was an error trying to generate the rank card: {error}",
-
     "SERVERINFO_ERROR": "There was an error trying to fetch server information.",
-
     "USERINFO_NOT_FOUND": "Could not find that member in the server.",
     "USERINFO_ERROR": "An error occurred while fetching user information.",
     "USERINFO_BUTTON_EXPIRED": "This button isn't for you!",
@@ -151,7 +130,6 @@
     "USERINFO_SPOTIFY_ARTIST": "Artist(s)",
     "USERINFO_SPOTIFY_ALBUM": "Album",
     "USERINFO_SPOTIFY_UNKNOWN": "Unknown Track",
-
     "REPORT_DISABLED": "The report system is currently disabled.",
     "REPORT_NO_CHANNEL": "The report channel has not been configured by an administrator.",
     "REPORT_SELF": "You cannot report yourself.",
@@ -162,19 +140,16 @@
     "REPORT_MESSAGE_SELF": "You cannot report your own message.",
     "REPORT_MESSAGE_BOT": "You cannot report a bot's message.",
     "REPORT_MESSAGE_SUCCESS": "Your report for the message has been submitted to the moderators. Thank you.",
-    
     "PURGE_NO_MESSAGES": "No messages found to delete that match the criteria.",
     "PURGE_TOO_OLD": "No recent messages (less than 14 days old) were found to delete.",
     "PURGE_SUCCESS": "Successfully deleted {count} message(s).",
     "PURGE_FAIL": "There was an error trying to purge messages in this channel.",
     "PURGE_LOG_TITLE": "Messages Purged",
     "PURGE_REASON": "Purged {count} message(s) in #{channelName}.{userTag}",
-
     "REACTION_ROLE_POST_NOT_FOUND": "Could not find a panel named \"{panelName}\".",
     "REACTION_ROLE_POST_INVALID_CHANNEL": "The configured channel for this panel is invalid or could not be found.",
     "REACTION_ROLE_POST_SUCCESS": "Reaction role panel \"{panelName}\" has been successfully posted in {channel}.",
     "REACTION_ROLE_POST_FAIL": "Failed to post panel. Error: ```{error}```",
-
     "SETUP_TICKETS_DISABLED": "The ticket system is disabled. Please enable it in the dashboard first.",
     "SETUP_TICKETS_WRONG_CHANNEL": "This command can only be used in the configured ticket panel channel (<#{channelId}>).",
     "SETUP_TICKETS_SUCCESS": "Ticket panel has been posted successfully.",
@@ -189,7 +164,6 @@
     "TICKET_CLOSE_MESSAGE": "Ticket closed by {user}. The thread will be archived.",
     "TICKET_CLOSE_SUCCESS": "Ticket has been closed and archived.",
     "TICKET_CLOSE_ERROR": "An error occurred while closing the ticket.",
-
     "SETUP_VERIFICATION_AUTO_START": "Starting automatic setup... Analyzing roles and channels.",
     "SETUP_VERIFICATION_AUTO_ROLE_CREATED": "✅ Role `{roleName}` created.",
     "SETUP_VERIFICATION_AUTO_CHANNEL_CREATED": "✅ Channel `#{channelName}` created.",
@@ -208,5 +182,38 @@
     "VERIFY_NOT_CONFIGURED": "The verification system is not fully configured. Please contact an administrator.",
     "VERIFY_ALREADY_VERIFIED": "You are already verified or do not need verification.",
     "VERIFY_SUCCESS": "You have been successfully verified!",
-    "VERIFY_ERROR": "An error occurred while trying to verify you. Please contact an administrator."
+    "VERIFY_ERROR": "An error occurred while trying to verify you. Please contact an administrator.",
+    "SETUP_ALREADY_COMPLETED": "The initial setup for this server has already been completed. You can manage settings in the dashboard.",
+    "SETUP_STEP1_TITLE": "Step 1: Language Selection",
+    "SETUP_STEP1_DESC": "Please choose the language the bot will use in this server.",
+    "SETUP_STEP1_PLACEHOLDER": "Select a language...",
+    "SETUP_BUTTON_NEXT": "Next",
+    "SETUP_BUTTON_BACK": "Back",
+    "SETUP_BUTTON_SAVE": "Save Configuration",
+    "SETUP_STEP2_TITLE": "Step 2: Channel Configuration",
+    "SETUP_STEP2_DESC": "Select the default channels for important bot functions.",
+    "SETUP_STEP2_LOGS_PLACEHOLDER": "Select a channel for moderation logs...",
+    "SETUP_STEP2_WELCOME_PLACEHOLDER": "Select a channel for welcome messages...",
+    "SETUP_STEP2_REPORTS_PLACEHOLDER": "Select a channel for user reports...",
+    "SETUP_STEP2_TICKETS_PLACEHOLDER": "Select a channel for the ticket panel...",
+    "SETUP_STEP3_TITLE": "Step 3: Role Configuration",
+    "SETUP_STEP3_DESC": "Select the default roles for important bot systems.",
+    "SETUP_STEP3_VERIFIED_PLACEHOLDER": "Select the role for verified members...",
+    "SETUP_STEP3_UNVERIFIED_PLACEHOLDER": "Select the role for unverified members...",
+    "SETUP_STEP3_SUPPORT_PLACEHOLDER": "Select the role for ticket support staff...",
+    "SETUP_STEP4_TITLE": "Step 4: Enable Core Modules",
+    "SETUP_STEP4_DESC": "Choose which main modules you want to enable by default.",
+    "SETUP_SUMMARY_TITLE": "Final Summary",
+    "SETUP_SUMMARY_FOOTER": "Click 'Save' to apply these settings. You can change them later in the dashboard.",
+    "SETUP_SUMMARY_LANGUAGE": "Language",
+    "SETUP_SUMMARY_LOGS": "Log Channel",
+    "SETUP_SUMMARY_WELCOME": "Welcome Channel",
+    "SETUP_SUMMARY_REPORTS": "Reports Channel",
+    "SETUP_SUMMARY_TICKETS": "Tickets Channel",
+    "SETUP_SUMMARY_VERIFIED_ROLE": "Verified Role",
+    "SETUP_SUMMARY_UNVERIFIED_ROLE": "Unverified Role",
+    "SETUP_SUMMARY_SUPPORT_ROLE": "Support Role",
+    "SETUP_SUMMARY_MODULES": "Enabled Modules",
+    "SETUP_COMPLETE_TITLE": "🎉 Setup Complete!",
+    "SETUP_COMPLETE_DESC": "Your server is now set up with the basic modules. You can further customize each feature in the web dashboard."
 }
