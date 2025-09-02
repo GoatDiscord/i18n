@@ -7,8 +7,8 @@ You can invite the bot [here](https://discord.com/api/oauth2/authorize?client_id
 
 Thanks to our community, we have translated the bot to the following languages ❤:
 
-- English ([`z3ro0k`](https://github.com/z3ro0k))
-- Spanish ([`Lukas#6969`](https://github.com/z3ro0k))
+- English ([`atzuu.`](https://github.com/z3ro0k))
+- Spanish ([`atzuu.`](https://github.com/z3ro0k))
 
 And thanks to these people, for verifying new translations 💙:
 
