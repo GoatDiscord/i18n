@@ -149,7 +149,7 @@
     "REPORT_FAIL": "Ocurrió un error al intentar enviar tu reporte. Por favor, inténtalo de nuevo más tarde.",
     "REPORT_MESSAGE_SELF": "No puedes reportar tu propio mensaje.",
     "REPORT_MESSAGE_BOT": "No puedes reportar el mensaje de un bot.",
-    "REPORT_MESSAGE_SUCCESS": "Tu reporte del mensaje ha sido enviado a los moderadores. Gracias."
+    "REPORT_MESSAGE_SUCCESS": "Tu reporte del mensaje ha sido enviado a los moderadores. Gracias.",
     
     "PURGE_NO_MESSAGES": "No se encontraron mensajes para eliminar que coincidan con los criterios.",
     "PURGE_TOO_OLD": "No se encontraron mensajes recientes (de menos de 14 días) para eliminar.",
