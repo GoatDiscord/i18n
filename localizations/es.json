@@ -7,7 +7,6 @@
     "NO_REASON": "No se proporcionó una razón.",
     "COMMAND_EXECUTION_ERROR": "¡Ocurrió un error al ejecutar este comando!",
     "DASHBOARD": "ir a la Dashboard",
-
     "BAN_SUCCESS": "{user} ha sido baneado. Razón: {reason}",
     "BAN_FAIL": "Ocurrió un error al intentar banear a este miembro.",
     "BAN_CANT_BAN": "No puedo banear a este usuario. Puede que tenga un rol más alto que el mío o que me falten permisos.",
@@ -16,31 +15,25 @@
     "BAN_DM_MODERATOR": "Moderador",
     "BAN_DM_APPEAL": "Apelación",
     "BAN_DM_APPEAL_LINK": "[Haz clic aquí para apelar]({baseUrl}/appeals/{guildId})",
-
     "KICK_SUCCESS": "{user} ha sido expulsado. Razón: {reason}",
     "KICK_FAIL": "Ocurrió un error al intentar expulsar a este miembro.",
     "KICK_NOT_IN_SERVER": "Ese usuario no está en este servidor.",
     "KICK_CANT_KICK": "No puedo expulsar a este usuario. Puede que tenga un rol más alto que el mío o que me falten permisos.",
     "KICK_DM_TITLE": "Has sido expulsado de {serverName}",
-
     "MUTE_SUCCESS": "{user} ha sido silenciado por: {duration}. Razón: {reason}",
     "MUTE_FAIL": "Ocurrió un error al intentar silenciar a este miembro.",
     "MUTE_CANT_MUTE_ADMIN": "No puedes silenciar a un administrador.",
     "MUTE_INVALID_DURATION": "Formato de duración inválido. Usa patrones como '10m', '1h', '7d'.",
-
     "UNMUTE_SUCCESS": "Se ha quitado el silencio a {user}.",
     "UNMUTE_FAIL": "Ocurrió un error al intentar quitar el silencio a este miembro.",
     "UNMUTE_NOT_MUTED": "Este usuario no está silenciado actualmente.",
     "UNMUTE_DM_TITLE": "Tu silencio ha sido removido en {serverName}",
-
     "WARN_SUCCESS": "{user} ha sido advertido. Razón: {reason}",
     "WARN_FAIL": "Ocurrió un error al intentar emitir esta advertencia.",
     "WARN_CANT_WARN_BOT": "No puedes advertir a un bot.",
     "WARN_DM_TITLE": "Has sido advertido en {serverName}",
-    
     "DELWARN_SUCCESS": "Se eliminó correctamente la advertencia `{warningId}` para {userTag}.",
     "DELWARN_FAIL": "Ocurrió un error al intentar eliminar la advertencia `{warningId}`. Puede que no exista.",
-    
     "HISTORY_TITLE": "Historial de Moderación de {userTag}",
     "HISTORY_CLEAN": "Este usuario tiene un historial limpio.",
     "HISTORY_COUNT": "Este usuario tiene **{count}** registro(s) de moderación.",
@@ -48,23 +41,19 @@
     "HISTORY_FAIL": "Ocurrió un error al intentar obtener el historial de moderación.",
     "HISTORY_MODERATOR_LABEL": "Moderador",
     "HISTORY_REASON_LABEL": "Razón",
-
     "WARNINGS_TITLE": "Historial de Advertencias de {userTag}",
     "WARNINGS_CLEAN": "Este usuario no tiene advertencias.",
     "WARNINGS_COUNT": "Este usuario tiene **{count}** advertencia(s).",
     "WARNINGS_FOOTER": "Mostrando las 10 advertencias más recientes de un total de {total}.",
     "WARNINGS_FAIL": "Ocurrió un error al intentar obtener el historial de advertencias.",
-
     "LOCK_LOG_TITLE": "Canal Bloqueado",
     "LOCK_REPLY_TITLE": "🔒 Canal Bloqueado",
     "LOCK_REPLY_DESC": "Este canal ha sido bloqueado por un moderador.",
     "LOCK_FAIL": "Ocurrió un error al intentar bloquear este canal. Por favor, revisa mis permisos.",
-    
     "UNLOCK_LOG_TITLE": "Canal Desbloqueado",
     "UNLOCK_REPLY_TITLE": "🔓 Canal Desbloqueado",
     "UNLOCK_REPLY_DESC": "Este canal ha sido desbloqueado.",
     "UNLOCK_FAIL": "Ocurrió un error al intentar desbloquear este canal. Por favor, revisa mis permisos.",
-
     "EMBED_SEND_NOT_FOUND": "No se pudo encontrar un embed con el nombre `{name}`.",
     "EMBED_SEND_SUCCESS": "El embed `{name}` ha sido enviado a {channel}.",
     "EMBED_SEND_FAIL": "Ocurrió un error al intentar enviar el embed.",
@@ -73,7 +62,6 @@
     "EMBED_POST_LIMIT_REACHED": "Has alcanzado el límite máximo de {limit} embeds guardados.",
     "EMBED_POST_SUCCESS": "Se ha importado y guardado correctamente el embed como `{name}`. Ahora puedes enviarlo usando `/embed send`.",
     "EMBED_POST_FAIL": "Ocurrió un error. Por favor, asegúrate de que la ID del mensaje es correcta y de este canal.",
-
     "GIVEAWAY_INVALID_DURATION": "Formato de duración inválido. Usa `s`, `m`, `h`, o `d`. Ejemplo: `10m` o `2d`.",
     "GIVEAWAY_TITLE": "Sorteo",
     "GIVEAWAY_DESCRIPTION": "¡Haz clic en el botón para participar!",
@@ -98,24 +86,20 @@
     "GIVEAWAY_ENTRY_ERROR": "Este sorteo parece haber finalizado o hubo un error.",
     "GIVEAWAY_ENTRY_ALREADY_ENTERED": "Ya has participado en este sorteo.",
     "GIVEAWAY_ENTRY_SUCCESS": "¡Has entrado al sorteo con éxito!",
-
     "HELP_COMMAND_NOT_FOUND": "No se encontró el comando `/{commandName}`.",
     "HELP_OPTIONS_TITLE": "Opciones",
     "HELP_EMBED_TITLE": "Comandos de Goat Bot",
     "HELP_EMBED_DESCRIPTION": "Aquí tienes una lista de todos mis comandos. Usa `/help <comando>` para más detalles sobre un comando específico.",
-
     "TESTWELCOME_DISABLED": "Los mensajes de bienvenida están actualmente desactivados en el Dashboard.",
     "TESTWELCOME_NO_CHANNEL": "No se ha configurado un canal de bienvenida. Por favor, establece uno en la Dashboard.",
     "TESTWELCOME_INVALID_CHANNEL": "El canal de bienvenida configurado (ID: {channelId}) no se pudo encontrar o no es un canal de texto.",
     "TESTWELCOME_IMAGE_TITLE": "(Imagen de Bienvenida de Prueba)",
     "TESTWELCOME_SUCCESS": "¡Mensaje de bienvenida de prueba enviado a <#{channelId}>!",
     "TESTWELCOME_FAIL": "No se pudo enviar el mensaje de prueba: {error}",
-
     "LEADERBOARD_DISABLED": "El sistema de niveles está desactivado. Por favor, actívalo en la Dashboard.",
     "LEADERBOARD_EMPTY": "Aún no hay nadie en la tabla de clasificación. ¡Empieza a chatear!",
     "LEADERBOARD_FETCH_ERROR": "No se pudieron obtener los datos de los usuarios para la tabla de clasificación.",
     "LEADERBOARD_GENERAL_ERROR": "Ocurrió un error al intentar obtener la tabla de clasificación.",
-
     "MODULES_TITLE": "Estado de los Módulos para {serverName}",
     "MODULES_DESCRIPTION": "Aquí hay un resumen de la configuración actual de los módulos para este servidor.",
     "MODULES_FOOTER": "Configura estos módulos en la Dashboard.",
@@ -130,18 +114,13 @@
     "MODULES_AUTOROLE": "Auto Roles",
     "MODULES_REPORT": "Sistema de Reportes",
     "MODULES_ANTIRAID": "Protección Anti-Raid",
-
     "POLL_ERROR": "Hubo un error al intentar crear la encuesta. Por favor, revisa los datos e inténtalo de nuevo.",
-
     "PROFILE_NOT_FOUND": "No se pudo encontrar a ese miembro en el servidor.",
     "PROFILE_ERROR": "Ocurrió un error al intentar generar la tarjeta de perfil: {error}",
-
     "RANK_DISABLED": "El sistema de niveles está desactivado. Por favor, actívalo en la Dashboard.",
     "RANK_BOT": "Los bots no tienen niveles.",
     "RANK_ERROR": "Ocurrió un error al intentar generar la tarjeta de rango: {error}",
-
     "SERVERINFO_ERROR": "Ocurrió un error al intentar obtener la información del servidor.",
-
     "USERINFO_NOT_FOUND": "No se pudo encontrar a ese miembro en el servidor.",
     "USERINFO_ERROR": "Ocurrió un error al obtener la información del usuario.",
     "USERINFO_BUTTON_EXPIRED": "¡Este botón no es para ti!",
@@ -151,7 +130,6 @@
     "USERINFO_SPOTIFY_ARTIST": "Artista(s)",
     "USERINFO_SPOTIFY_ALBUM": "Álbum",
     "USERINFO_SPOTIFY_UNKNOWN": "Canción Desconocida",
-
     "REPORT_DISABLED": "El sistema de reportes está actualmente desactivado.",
     "REPORT_NO_CHANNEL": "El canal de reportes no ha sido configurado por un administrador.",
     "REPORT_SELF": "No puedes reportarte a ti mismo.",
@@ -162,19 +140,16 @@
     "REPORT_MESSAGE_SELF": "No puedes reportar tu propio mensaje.",
     "REPORT_MESSAGE_BOT": "No puedes reportar el mensaje de un bot.",
     "REPORT_MESSAGE_SUCCESS": "Tu reporte del mensaje ha sido enviado a los moderadores. Gracias!",
-    
     "PURGE_NO_MESSAGES": "No se encontraron mensajes para eliminar que coincidan con los criterios.",
     "PURGE_TOO_OLD": "No se encontraron mensajes recientes (de menos de 14 días) para eliminar.",
     "PURGE_SUCCESS": "Se eliminaron {count} mensaje(s) correctamente.",
     "PURGE_FAIL": "Ocurrió un error al intentar purgar los mensajes en este canal.",
     "PURGE_LOG_TITLE": "Mensajes Purgados",
     "PURGE_REASON": "Se purgaron {count} mensaje(s) en #{channelName}.{userTag}",
-
     "REACTION_ROLE_POST_NOT_FOUND": "No se pudo encontrar un panel con el nombre \"{panelName}\".",
     "REACTION_ROLE_POST_INVALID_CHANNEL": "El canal configurado para este panel es inválido o no se pudo encontrar.",
     "REACTION_ROLE_POST_SUCCESS": "El panel de roles por reacción \"{panelName}\" se ha publicado correctamente en {channel}.",
     "REACTION_ROLE_POST_FAIL": "Error al publicar el panel. Error: ```{error}```",
-
     "SETUP_TICKETS_DISABLED": "El sistema de tickets está desactivado. Por favor, actívalo primero en la Dashboard.",
     "SETUP_TICKETS_WRONG_CHANNEL": "Este comando solo puede usarse en el canal configurado para el panel de tickets (<#{channelId}>).",
     "SETUP_TICKETS_SUCCESS": "El panel de tickets se ha publicado correctamente.",
@@ -189,7 +164,6 @@
     "TICKET_CLOSE_MESSAGE": "Ticket cerrado por {user}. El hilo será archivado.",
     "TICKET_CLOSE_SUCCESS": "El ticket ha sido cerrado y archivado.",
     "TICKET_CLOSE_ERROR": "Ocurrió un error al cerrar el ticket.",
-
     "SETUP_VERIFICATION_AUTO_START": "Iniciando configuración automática... Analizando roles y canales.",
     "SETUP_VERIFICATION_AUTO_ROLE_CREATED": "✅ Rol `{roleName}` creado.",
     "SETUP_VERIFICATION_AUTO_CHANNEL_CREATED": "✅ Canal `#{channelName}` creado.",
@@ -208,5 +182,38 @@
     "VERIFY_NOT_CONFIGURED": "El sistema de verificación no está completamente configurado. Por favor, contacta a un administrador.",
     "VERIFY_ALREADY_VERIFIED": "Ya estás verificado o no necesitas verificación.",
     "VERIFY_SUCCESS": "¡Has sido verificado con éxito!",
-    "VERIFY_ERROR": "Ocurrió un error al intentar verificarte. Por favor, contacta a un administrador."
+    "VERIFY_ERROR": "Ocurrió un error al intentar verificarte. Por favor, contacta a un administrador.",
+    "SETUP_ALREADY_COMPLETED": "La configuración inicial para este servidor ya ha sido completada. Puedes gestionar los ajustes en el dashboard.",
+    "SETUP_STEP1_TITLE": "Paso 1: Selección de Idioma",
+    "SETUP_STEP1_DESC": "Por favor, elige el idioma que el bot usará en este servidor.",
+    "SETUP_STEP1_PLACEHOLDER": "Selecciona un idioma...",
+    "SETUP_BUTTON_NEXT": "Siguiente",
+    "SETUP_BUTTON_BACK": "Atrás",
+    "SETUP_BUTTON_SAVE": "Guardar Configuración",
+    "SETUP_STEP2_TITLE": "Paso 2: Configuración de Canales",
+    "SETUP_STEP2_DESC": "Selecciona los canales predeterminados para funciones importantes del bot.",
+    "SETUP_STEP2_LOGS_PLACEHOLDER": "Selecciona un canal para los logs de moderación...",
+    "SETUP_STEP2_WELCOME_PLACEHOLDER": "Selecciona un canal para los mensajes de bienvenida...",
+    "SETUP_STEP2_REPORTS_PLACEHOLDER": "Selecciona un canal para los reportes de usuarios...",
+    "SETUP_STEP2_TICKETS_PLACEHOLDER": "Selecciona un canal para el panel de tickets...",
+    "SETUP_STEP3_TITLE": "Paso 3: Configuración de Roles",
+    "SETUP_STEP3_DESC": "Selecciona los roles predeterminados para sistemas importantes del bot.",
+    "SETUP_STEP3_VERIFIED_PLACEHOLDER": "Selecciona el rol para miembros verificados...",
+    "SETUP_STEP3_UNVERIFIED_PLACEHOLDER": "Selecciona el rol para miembros no verificados...",
+    "SETUP_STEP3_SUPPORT_PLACEHOLDER": "Selecciona el rol para el personal de soporte de tickets...",
+    "SETUP_STEP4_TITLE": "Paso 4: Activar Módulos Principales",
+    "SETUP_STEP4_DESC": "Elige qué módulos principales quieres activar por defecto.",
+    "SETUP_SUMMARY_TITLE": "Resumen Final",
+    "SETUP_SUMMARY_FOOTER": "Haz clic en 'Guardar' para aplicar estos ajustes. Puedes cambiarlos más tarde en el dashboard.",
+    "SETUP_SUMMARY_LANGUAGE": "Idioma",
+    "SETUP_SUMMARY_LOGS": "Canal de Logs",
+    "SETUP_SUMMARY_WELCOME": "Canal de Bienvenida",
+    "SETUP_SUMMARY_REPORTS": "Canal de Reportes",
+    "SETUP_SUMMARY_TICKETS": "Canal de Tickets",
+    "SETUP_SUMMARY_VERIFIED_ROLE": "Rol Verificado",
+    "SETUP_SUMMARY_UNVERIFIED_ROLE": "Rol No Verificado",
+    "SETUP_SUMMARY_SUPPORT_ROLE": "Rol de Soporte",
+    "SETUP_SUMMARY_MODULES": "Módulos Activados",
+    "SETUP_COMPLETE_TITLE": "🎉 ¡Configuración Completa!",
+    "SETUP_COMPLETE_DESC": "Tu servidor ha sido configurado con los módulos básicos. Puedes personalizar cada función más a fondo en el dashboard."
 }
