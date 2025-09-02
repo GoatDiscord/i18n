@@ -150,4 +150,35 @@
     "REPORT_MESSAGE_SELF": "No puedes reportar tu propio mensaje.",
     "REPORT_MESSAGE_BOT": "No puedes reportar el mensaje de un bot.",
     "REPORT_MESSAGE_SUCCESS": "Tu reporte del mensaje ha sido enviado a los moderadores. Gracias."
+    
+    "PURGE_NO_MESSAGES": "No se encontraron mensajes para eliminar que coincidan con los criterios.",
+    "PURGE_TOO_OLD": "No se encontraron mensajes recientes (de menos de 14 días) para eliminar.",
+    "PURGE_SUCCESS": "Se eliminaron {count} mensaje(s) correctamente.",
+    "PURGE_FAIL": "Ocurrió un error al intentar purgar los mensajes en este canal.",
+    "PURGE_LOG_TITLE": "Mensajes Purgados",
+    "PURGE_REASON": "Se purgaron {count} mensaje(s) en #{channelName}.{userTag}",
+
+    "REACTION_ROLE_POST_NOT_FOUND": "No se pudo encontrar un panel con el nombre \"{panelName}\".",
+    "REACTION_ROLE_POST_INVALID_CHANNEL": "El canal configurado para este panel es inválido o no se pudo encontrar.",
+    "REACTION_ROLE_POST_SUCCESS": "El panel de roles por reacción \"{panelName}\" se ha publicado correctamente en {channel}.",
+    "REACTION_ROLE_POST_FAIL": "Error al publicar el panel. Error: ```{error}```",
+
+    "SETUP_TICKETS_DISABLED": "El sistema de tickets está desactivado. Por favor, actívalo primero en el panel.",
+    "SETUP_TICKETS_WRONG_CHANNEL": "Este comando solo puede usarse en el canal configurado para el panel de tickets (<#{channelId}>).",
+    "SETUP_TICKETS_SUCCESS": "El panel de tickets se ha publicado correctamente.",
+    "SETUP_TICKETS_FAIL": "Ocurrió un error: ```{error}```",
+
+    "SETUP_VERIFICATION_AUTO_START": "Iniciando configuración automática... Analizando roles y canales.",
+    "SETUP_VERIFICATION_AUTO_ROLE_CREATED": "✅ Rol `{roleName}` creado.",
+    "SETUP_VERIFICATION_AUTO_CHANNEL_CREATED": "✅ Canal `#{channelName}` creado.",
+    "SETUP_VERIFICATION_AUTO_CONFIGURING_PERMS": "Configurando permisos de canal... Esto puede tardar un momento.",
+    "SETUP_VERIFICATION_AUTO_PERMS_DONE": "✅ Permisos de canal configurados. El rol `Unverified` ya no puede ver otros canales.",
+    "SETUP_VERIFICATION_AUTO_COMPLETE": "🚀 **¡Configuración Automática Completa!**\n\nAhora puedes usar `/setup-verification msg` para publicar el mensaje de verificación.",
+    "SETUP_VERIFICATION_MSG_DISABLED": "El sistema de verificación está desactivado. Por favor, actívalo en el panel o ejecuta `/setup-verification auto`.",
+    "SETUP_VERIFICATION_MSG_NO_CHANNEL": "No se ha configurado un canal de verificación. Por favor, establece uno en el panel o ejecuta `/setup-verification auto`.",
+    "SETUP_VERIFICATION_MSG_INVALID_CHANNEL": "El canal de verificación configurado (ID: {channelId}) no se pudo encontrar o no es un canal de texto.",
+    "SETUP_VERIFICATION_MSG_SUCCESS": "El mensaje de verificación ha sido enviado a <#{channelId}>.",
+    "SETUP_VERIFICATION_FAIL": "Ocurrió un error: ```{error}```"
+}
+
 }
