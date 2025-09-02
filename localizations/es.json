@@ -4,6 +4,7 @@
     "COMMAND_ERROR": "Este comando solo se puede usar en un servidor.",
     "COMMAND_ERROR_TEXT_CHANNEL": "Este comando solo se puede usar en un canal de texto.",
     "NO_REASON": "No se proporcionó una razón.",
+    "COMMAND_EXECUTION_ERROR": "¡Ocurrió un error al ejecutar este comando!",
 
     "BAN_SUCCESS": "{user} ha sido baneado. Razón: {reason}",
     "BAN_FAIL": "Ocurrió un error al intentar banear a este miembro.",
@@ -87,6 +88,14 @@
     "GIVEAWAY_NO_OTHER_PARTICIPANTS": "No hay otros participantes para elegir.",
     "GIVEAWAY_REROLL_ANNOUNCEMENT": "🎉 ¡Se ha elegido un nuevo ganador para el sorteo de **{prize}**! ¡Felicidades {winner}! 🎉",
     "GIVEAWAY_REROLL_SUCCESS": "Se ha anunciado un nuevo ganador: {winner}.",
+    "GIVEAWAY_ENDED_TITLE": "🎉 Sorteo Finalizado: {prize} 🎉",
+    "GIVEAWAY_WINNERS_LIST": "Ganador(es):\n{winners}",
+    "GIVEAWAY_NO_WINNERS": "No se eligieron ganadores.",
+    "GIVEAWAY_WINNER_ANNOUNCEMENT": "¡Felicidades {winners}! ¡Ganaste el/la **{prize}**!",
+    "GIVEAWAY_NO_PARTICIPANTS": "El sorteo de **{prize}** ha finalizado, pero no hubo participantes.",
+    "GIVEAWAY_ENTRY_ERROR": "Este sorteo parece haber finalizado o hubo un error.",
+    "GIVEAWAY_ENTRY_ALREADY_ENTERED": "Ya has participado en este sorteo.",
+    "GIVEAWAY_ENTRY_SUCCESS": "¡Has entrado al sorteo con éxito!",
 
     "HELP_COMMAND_NOT_FOUND": "No se encontró el comando `/{commandName}`.",
     "HELP_OPTIONS_TITLE": "Opciones",
@@ -167,6 +176,16 @@
     "SETUP_TICKETS_WRONG_CHANNEL": "Este comando solo puede usarse en el canal configurado para el panel de tickets (<#{channelId}>).",
     "SETUP_TICKETS_SUCCESS": "El panel de tickets se ha publicado correctamente.",
     "SETUP_TICKETS_FAIL": "Ocurrió un error: ```{error}```",
+    "TICKET_SYSTEM_DISABLED": "El sistema de tickets está actualmente desactivado.",
+    "TICKET_INVALID_CHANNEL_TYPE": "No se puede crear un ticket en este tipo de canal.",
+    "TICKET_ALREADY_OPEN": "Ya tienes un ticket abierto: <#{threadId}>",
+    "TICKET_CLOSE_BUTTON": "Cerrar Ticket",
+    "TICKET_CREATE_SUCCESS": "Tu ticket ha sido creado: {thread}",
+    "TICKET_CREATE_ERROR": "Ocurrió un error al crear tu ticket. Por favor, inténtalo de nuevo más tarde.",
+    "TICKET_CLOSE_NOT_IN_THREAD": "Este comando solo se puede usar dentro de un hilo de ticket.",
+    "TICKET_CLOSE_MESSAGE": "Ticket cerrado por {user}. El hilo será archivado.",
+    "TICKET_CLOSE_SUCCESS": "El ticket ha sido cerrado y archivado.",
+    "TICKET_CLOSE_ERROR": "Ocurrió un error al cerrar el ticket.",
 
     "SETUP_VERIFICATION_AUTO_START": "Iniciando configuración automática... Analizando roles y canales.",
     "SETUP_VERIFICATION_AUTO_ROLE_CREATED": "✅ Rol `{roleName}` creado.",
@@ -178,5 +197,9 @@
     "SETUP_VERIFICATION_MSG_NO_CHANNEL": "No se ha configurado un canal de verificación. Por favor, establece uno en el panel o ejecuta `/setup-verification auto`.",
     "SETUP_VERIFICATION_MSG_INVALID_CHANNEL": "El canal de verificación configurado (ID: {channelId}) no se pudo encontrar o no es un canal de texto.",
     "SETUP_VERIFICATION_MSG_SUCCESS": "El mensaje de verificación ha sido enviado a <#{channelId}>.",
-    "SETUP_VERIFICATION_FAIL": "Ocurrió un error: ```{error}```"
+    "SETUP_VERIFICATION_FAIL": "Ocurrió un error: ```{error}```",
+    "VERIFY_NOT_CONFIGURED": "El sistema de verificación no está completamente configurado. Por favor, contacta a un administrador.",
+    "VERIFY_ALREADY_VERIFIED": "Ya estás verificado o no necesitas verificación.",
+    "VERIFY_SUCCESS": "¡Has sido verificado con éxito!",
+    "VERIFY_ERROR": "Ocurrió un error al intentar verificarte. Por favor, contacta a un administrador."
 }
