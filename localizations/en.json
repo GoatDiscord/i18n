@@ -4,6 +4,7 @@
     "COMMAND_ERROR": "This command can only be used in a server.",
     "COMMAND_ERROR_TEXT_CHANNEL": "This command can only be used in a text channel.",
     "NO_REASON": "No reason provided.",
+    "COMMAND_EXECUTION_ERROR": "There was an error while executing this command!",
 
     "BAN_SUCCESS": "{user} has been banned. Reason: {reason}",
     "BAN_FAIL": "There was an error trying to ban this member.",
@@ -87,6 +88,14 @@
     "GIVEAWAY_NO_OTHER_PARTICIPANTS": "There are no other participants to choose from.",
     "GIVEAWAY_REROLL_ANNOUNCEMENT": "🎉 A new winner has been chosen for the **{prize}** giveaway! Congratulations {winner}! 🎉",
     "GIVEAWAY_REROLL_SUCCESS": "New winner {winner} has been announced.",
+    "GIVEAWAY_ENDED_TITLE": "🎉 Giveaway Ended: {prize} 🎉",
+    "GIVEAWAY_WINNERS_LIST": "Winner(s):\n{winners}",
+    "GIVEAWAY_NO_WINNERS": "No winners were chosen.",
+    "GIVEAWAY_WINNER_ANNOUNCEMENT": "Congratulations {winners}! You won the **{prize}**!",
+    "GIVEAWAY_NO_PARTICIPANTS": "The giveaway for **{prize}** has ended, but there were no participants.",
+    "GIVEAWAY_ENTRY_ERROR": "This giveaway seems to have ended or there was an error.",
+    "GIVEAWAY_ENTRY_ALREADY_ENTERED": "You have already entered this giveaway.",
+    "GIVEAWAY_ENTRY_SUCCESS": "You have successfully entered the giveaway!",
 
     "HELP_COMMAND_NOT_FOUND": "Command `/{commandName}` not found.",
     "HELP_OPTIONS_TITLE": "Options",
@@ -167,6 +176,16 @@
     "SETUP_TICKETS_WRONG_CHANNEL": "This command can only be used in the configured ticket panel channel (<#{channelId}>).",
     "SETUP_TICKETS_SUCCESS": "Ticket panel has been posted successfully.",
     "SETUP_TICKETS_FAIL": "An error occurred: ```{error}```",
+    "TICKET_SYSTEM_DISABLED": "The ticket system is currently disabled.",
+    "TICKET_INVALID_CHANNEL_TYPE": "Cannot create a ticket in this channel type.",
+    "TICKET_ALREADY_OPEN": "You already have an open ticket: <#{threadId}>",
+    "TICKET_CLOSE_BUTTON": "Close Ticket",
+    "TICKET_CREATE_SUCCESS": "Your ticket has been created: {thread}",
+    "TICKET_CREATE_ERROR": "An error occurred while creating your ticket. Please try again later.",
+    "TICKET_CLOSE_NOT_IN_THREAD": "This command can only be used within a ticket thread.",
+    "TICKET_CLOSE_MESSAGE": "Ticket closed by {user}. The thread will be archived.",
+    "TICKET_CLOSE_SUCCESS": "Ticket has been closed and archived.",
+    "TICKET_CLOSE_ERROR": "An error occurred while closing the ticket.",
 
     "SETUP_VERIFICATION_AUTO_START": "Starting automatic setup... Analyzing roles and channels.",
     "SETUP_VERIFICATION_AUTO_ROLE_CREATED": "✅ Role `{roleName}` created.",
@@ -178,5 +197,9 @@
     "SETUP_VERIFICATION_MSG_NO_CHANNEL": "No verification channel has been configured. Please set one in the dashboard or run `/setup-verification auto`.",
     "SETUP_VERIFICATION_MSG_INVALID_CHANNEL": "The configured verification channel (ID: {channelId}) could not be found or is not a text channel.",
     "SETUP_VERIFICATION_MSG_SUCCESS": "Verification message has been sent to <#{channelId}>.",
-    "SETUP_VERIFICATION_FAIL": "An error occurred: ```{error}```"
+    "SETUP_VERIFICATION_FAIL": "An error occurred: ```{error}```",
+    "VERIFY_NOT_CONFIGURED": "The verification system is not fully configured. Please contact an administrator.",
+    "VERIFY_ALREADY_VERIFIED": "You are already verified or do not need verification.",
+    "VERIFY_SUCCESS": "You have been successfully verified!",
+    "VERIFY_ERROR": "An error occurred while trying to verify you. Please contact an administrator."
 }
